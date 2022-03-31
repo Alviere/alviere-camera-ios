@@ -11,7 +11,7 @@ let package = Package(
         .library(
             name: "AlCamera",
             targets: [
-                "MiSnapBarcodeScannerLight"
+                "MiSnapBarcodeScannerLight",
                 "MiSnapFacialCapture",
                 "MiSnapSDK",
                 "MiSnapSDKCamera",
@@ -24,38 +24,38 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MiSnapBarcodeScannerLight",
-            url: "https://github.com/Alviere/alviere-camera-ios/releases/download/1.0.3/MiSnapBarcodeScannerLight.xcframework.zip",
-            checksum: "da2be66390a618e9ce9bf86504782d84e6de219271937faa9ac58f54e5d76d8d"
+            url: "https://github.com/Alviere/alviere-camera-ios/releases/download/1.0.4/MiSnapBarcodeScannerLight.xcframework.zip",
+            checksum: "44c034454ff7e0f7fa70877d2ae9364cbcdbab00defa30a593fc435a54d84ede"
         ),
         .binaryTarget(
             name: "MiSnapFacialCapture",
-            url: "https://github.com/Alviere/alviere-camera-ios/releases/download/1.0.3/MiSnapFacialCapture.xcframework.zip",
-            checksum: "dbd9a884fbcf7facd690b489bfad9ca496177d1d94243c34b8e3b00cc9935848"
+            url: "https://github.com/Alviere/alviere-camera-ios/releases/download/1.0.4/MiSnapFacialCapture.xcframework.zip",
+            checksum: "85e7792220f6bb70a8be9796e7282755361acb5141a5e0574c35982f94337a28"
         ),
         .binaryTarget(
             name: "MiSnapSDK",
-            url: "https://github.com/Alviere/alviere-camera-ios/releases/download/1.0.3/MiSnapSDK.xcframework.zip",
-            checksum: "2fb0bde4a99d274b8df540a6540c421f9c9fabaa563f52e48e496527a230a9da"
+            url: "https://github.com/Alviere/alviere-camera-ios/releases/download/1.0.4/MiSnapSDK.xcframework.zip",
+            checksum: "73f5fa736422346358bffbc639862a2dcdd3e12090db214b09325697e0487d01"
         ),
         .binaryTarget(
             name: "MiSnapSDKCamera",
-            url: "https://github.com/Alviere/alviere-camera-ios/releases/download/1.0.3/MiSnapSDKCamera.xcframework.zip",
-            checksum: "97e4ea331b390a1f07ff1048854ede59cd27c5182c9f1268db3aa6e5d1e21d20"
+            url: "https://github.com/Alviere/alviere-camera-ios/releases/download/1.0.4/MiSnapSDKCamera.xcframework.zip",
+            checksum: "1ef430fed90e483cc7ceae119cc9cc3390e26df195c353c0c5e995e304ccdb7e"
         ),
         .binaryTarget(
             name: "MiSnapSDKMibiData",
-            url: "https://github.com/Alviere/alviere-camera-ios/releases/download/1.0.3/MiSnapSDKMibiData.xcframework.zip",
-            checksum: "b98c48339efc4ba0b47fa018395552e549fc28b4f8b14c25cc8d8d0ddf06cd04"
+            url: "https://github.com/Alviere/alviere-camera-ios/releases/download/1.0.4/MiSnapSDKMibiData.xcframework.zip",
+            checksum: "ef0f380cef955093d5293f6cfd6185ffb1dd289940ae747d28c1d366d0e8ee95"
         ),
         .binaryTarget(
             name: "MiSnapSDKScience",
-            url: "https://github.com/Alviere/alviere-camera-ios/releases/download/1.0.3/MiSnapSDKScience.xcframework.zip",
-            checksum: "1bbc2f2ecd634fe55bd0c713bb9d4121b27493e330c2b8b52d995012685b1d62"
+            url: "https://github.com/Alviere/alviere-camera-ios/releases/download/1.0.4/MiSnapSDKScience.xcframework.zip",
+            checksum: "56daa39581d5bd4865e298a950d5cf6e2bcdde035fe9dc1775b11f22ff42d8cc"
         ),
         .binaryTarget(
             name: "MobileFlow",
-            url: "https://github.com/Alviere/alviere-camera-ios/releases/download/1.0.3/MobileFlow.xcframework.zip",
-            checksum: "e43a854cce167b266bc2584128999ddb303ed984df5d670acfe064109e1b7bd6"
+            url: "https://github.com/Alviere/alviere-camera-ios/releases/download/1.0.4/MobileFlow.xcframework.zip",
+            checksum: "1a24c0b237ab3e13b97b2a0e94cd590b695cda1a859f7198af79efabcff92afe"
         )
     ]
 )
